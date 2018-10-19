@@ -1,2 +1,0 @@
-# rakeshjasti.github.io
-Webpage
