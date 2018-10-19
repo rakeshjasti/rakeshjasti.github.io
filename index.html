@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+    <title>Rakesh Jasti</title>
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-50109714-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+
+  <body>
+    <div id="amod">
+      <img src="img/amod.png"/>
+    </div>
+    <div id="nostring-sep"></div>
+    <div id="string-sep" style="display: none;">
+      <canvas id="string-canvas"></canvas>
+    </div>
+
+    <div id="content">
+      <div id="above-sep">
+        <h1 id="chris">Rakesh Jasti</h1>
+        <ul id="links">
+          <!-- <li><a href="https://twitter.com/chrisdonahuey">
+              <img src="img/logos/twitter.png" onmouseover="this.src='img/logos/twitter_hover.png'"
+onmouseout="this.src='img/logos/twitter.png'"/>
+          </a></li>
+          <li><a href="https://scholar.google.com/citations?user=MgzHAPQAAAAJ&hl=en">
+              <img src="img/logos/gscholar.png" onmouseover="this.src='img/logos/gscholar_hover.png'"
+onmouseout="this.src='img/logos/gscholar.png'"/>
+          </a></li> -->
+          <li><a href="pdf/cv.pdf" target="_blank">
+              <img src="img/logos/cv.png" onmouseover="this.src='img/logos/cv_hover.png'"
+onmouseout="this.src='img/logos/cv.png'"/>
+          </a></li>
+          <li><a href="https://github.com/jastir" target="_blank">
+            <img src="img/logos/github.png" onmouseover="this.src='img/logos/github_hover.png'"
+onmouseout="this.src='img/logos/github.png'"/>
+          </a></li>
+          <li><a href="https://www.linkedin.com/in/rakeshjasti/" target="_blank">
+              <img src="img/logos/linkedin.png" onmouseover="this.src='img/logos/linkedin_hover.png'"
+onmouseout="this.src='img/logos/linkedin.png'"/>
+          </a></li>
+        </ul>
+        <p id="email-block">
+          <b>Email: </b>
+          <span id="email">
+            <noscript><i>Enable Javascript to view e-mail address</i></noscript>
+          </span>
+        </p>
+      </div>
+      <div id="sep-placeholder" style="visibility: hidden;">
+        <hr>
+      </div>
+      <div id="below-sep">
+        <section id="intro">
+          <img src="img/headshot.png" align="left"/>
+          <p>I am currently a Masters candidate in computer science at UC Merced. I am advised by <a href="http://faculty.ucmerced.edu/mhyang/" target="_blank">Ming-Hsuan Yang</a>. My general fields of interest are computer vision and machine learning.</p>
+          <p>Before graduate school, I was a Research Assitant at the <a href="http://cvit.iiit.ac.in" target="_blank"> Center for Visual Information Technology</a> (CVIT), IIIT-Hyderabad working under the supervision of <a href="https://faculty.iiit.ac.in/~jawahar/" target="_blank"> C.V. Jawahar</a>. In 2015, I received my Bachelors degree from IIT Roorkee.</p>
+        </section>
+        <br>
+        <section id="publications">
+          <h2>Publications</h2>
+          <ul>
+            <!-- <li>
+              <span class="paper-authors">
+                Chris Donahue, <a class="quiet" href="http://www.iansimon.org">Ian Simon</a>, <a class="quiet" href="http://benanne.github.io/about/">Sander Dieleman</a>
+              </span>
+              <span class="paper-title">
+              Piano Genie
+              </span>
+              <span class="paper-venue">
+              arXiv:1810.05246, 2018.
+              </span>
+              <span class="paper-hyperlinks">
+              [<a href="https://arxiv.org/pdf/1810.05246.pdf">pdf</a>, <a href="bib/2018_arxiv_pianogenie.bib">BibTeX</a>, <a href="https://arxiv.org/abs/1810.05246">arXiv</a>, <a href="https://www.youtube.com/watch?v=YRb0XAnUpIk&list=PLBUMAYA6kvGVOmhAwLRP4i_L15D7AoWDJ">videos</a>, <a href="https://tensorflow.github.io/magenta-demos/piano-genie/">demo</a>, <a href="https://github.com/tensorflow/magenta/tree/master/magenta/models/piano_genie">code</a>]
+              </span>
+            </li>
+            <li>
+              <span class="paper-authors">
+                Chris Donahue, <a class="quiet" href="https://henry.calclavia.com">Huanru Henry Mao</a>, <a class="quiet" href="http://cseweb.ucsd.edu/~jmcauley/">Julian McAuley</a>
+              </span>
+              <span class="paper-title">
+              The NES Music Database: A multi-instrumental dataset with expressive performance attributes
+              </span>
+              <span class="paper-venue">
+              In <i>ISMIR</i>, 2018.
+              </span>
+              <span class="paper-hyperlinks">
+              [<a href="https://arxiv.org/pdf/1806.04278.pdf">pdf</a>, <a href="bib/2018_ismir_nesmdb.bib">BibTeX</a>, <a href="https://arxiv.org/abs/1806.04278">arXiv</a>, <a href="https://github.com/chrisdonahue/nesmdb">dataset</a>, <a href="https://github.com/chrisdonahue/nesmdb">code</a>, <a href="https://colab.research.google.com/drive/1oN1g4-quvs-2GIDAff8pVOaCh_Dg-cWe">notebook</a>]
+              </span>
+            </li>
+            <li>
+              <span class="paper-authors">
+                Chris Donahue, <a class="quiet" href="http://cseweb.ucsd.edu/~jmcauley/">Julian McAuley</a>, <a class="quiet" href="http://msp.ucsd.edu">Miller Puckette</a>
+              </span>
+              <span class="paper-title">
+              Synthesizing Audio with Generative Adversarial Networks
+              </span>
+              <span class="paper-venue">
+              In <i>ICLR Workshops</i>, 2018.
+              </span>
+              <span class="paper-hyperlinks">
+	      [<a href="https://arxiv.org/pdf/1802.04208.pdf">pdf</a>, <a href="bib/2018_arxiv_wavegan.bib">BibTeX</a>, <a href="https://arxiv.org/abs/1802.04208">arXiv</a>, <a href="https://github.com/chrisdonahue/wavegan">code</a>, <a href="https://chrisdonahue.github.io/wavegan/">demo</a>, <a href="http://wavegan-v1.s3-website-us-east-1.amazonaws.com">sound examples</a>, <a href="https://colab.research.google.com/drive/1e9o2NB2GDDjadptGr3rwQwTcw-IrFOnm">notebook</a>]
+              </span>
+            </li>
+            <li>
+              <span class="paper-authors">
+                Chris Donahue, <a class="quiet" href="http://zacklipton.com/">Zachary C. Lipton</a>, <a class="quiet" href="http://web.stanford.edu/~abalsubr/">Akshay Balsubramani</a>, <a class="quiet" href="http://cseweb.ucsd.edu/~jmcauley/">Julian McAuley</a>
+              </span>
+              <span class="paper-title">
+              Semantically Decomposing the Latent Spaces of Generative Adversarial Networks
+              </span>
+              <span class="paper-venue">
+	      In <i>ICLR</i>, 2018.
+              </span>
+              <span class="paper-hyperlinks">
+                [<a href="https://arxiv.org/pdf/1705.07904.pdf">pdf</a>, <a href="bib/2018_iclr_sdgan.bib">BibTeX</a>, <a href="https://arxiv.org/abs/1705.07904">arXiv</a>, <a href="https://github.com/chrisdonahue/sdgan">code</a>, <a href="https://chrisdonahue.github.io/sdgan/">demo</a>]
+              </span>
+            </li>
+            <li>
+              <span class="paper-authors">
+                Chris Donahue, <a class="quiet" href="https://research.google.com/pubs/BoLi.html">Bo Li</a>, <a class="quiet" href="https://research.google.com/pubs/RohitPrabhavalkar.html">Rohit Prabhavalkar</a>
+              </span>
+              <span class="paper-title">
+              Exploring Speech Enhancement with Generative Adversarial Networks for Robust Speech Recognition
+              </span>
+              <span class="paper-venue">
+                In <i>ICASSP</i> (<b>oral</b>), 2018.
+              </span>
+              <span class="paper-hyperlinks">
+                [<a href="https://arxiv.org/pdf/1711.05747.pdf">pdf</a>, <a href="bib/2018_icassp_fsegan.bib">BibTeX</a>, <a href="https://arxiv.org/abs/1711.05747">arXiv</a>]
+              </span>
+            </li>
+            <li>
+              <span class="paper-authors">
+                Chris Donahue, <a class="quiet" href="http://cseweb.ucsd.edu/~jmcauley/">Julian McAuley</a>
+              </span>
+              <span class="paper-title">
+        Disentangled Representations of Style and Content for Visual Art with Generative Adversarial Networks
+              </span>
+              <span class="paper-venue">
+                In <i><a class="quiet" href="https://nips2017creativity.github.io">NIPS Workshop on Machine Learning for Creativity and Design</a></i>, 2017.
+              </span>
+              <span class="paper-hyperlinks">
+                [<a href="https://s3-us-west-2.amazonaws.com/web-portfolio-static/pdf/2017_nipsworkshop_sdgan_art.pdf">pdf</a>, <a href="bib/2017_nipsworkshop_sdgan_art.bib">BibTeX</a>, <a href="https://chrisdonahue.github.io/sdgan_art/">demo</a>]
+              </span>
+            </li>
+            <li>
+              <span class="paper-authors">
+                Chris Donahue, <a class="quiet" href="http://zacklipton.com">Zachary C. Lipton</a>, <a class="quiet" href="http://cseweb.ucsd.edu/~jmcauley/">Julian McAuley</a>
+              </span>
+              <span class="paper-title">
+  	      Dance Dance Convolution
+              </span>
+              <span class="paper-venue">
+                In <i>ICML</i>, 2017.
+              </span>
+              <span class="paper-hyperlinks">
+                [<a href="https://arxiv.org/pdf/1703.06891.pdf">pdf</a>, <a href="bib/2017_icml_ddc.bib">BibTeX</a>, <a href="https://arxiv.org/abs/1703.06891">arXiv</a>, <a href="https://github.com/chrisdonahue/ddc">dataset</a>, <a href="https://github.com/chrisdonahue/ddc">code</a>, <a href="http://deepx.ucsd.edu/ddc">demo</a>]
+              </span>
+            </li>
+            <li>
+              <span class="paper-authors">
+                Chris Donahue, <a class="quiet" href="http://www.soundhack.com/">Tom Erbe</a>, <a class="quiet" href="http://msp.ucsd.edu/">Miller Puckette</a>
+              </span>
+              <span class="paper-title">
+  	      Extended Convolution Techniques for Cross-Synthesis
+              </span>
+              <span class="paper-venue">
+                In <i>ICMC</i>, 2016.
+              </span>
+              <span class="paper-hyperlinks">
+  	        [<a href="https://quod.lib.umich.edu/cache//b/b/p/bbp2372.2016.048/bbp2372.2016.048.pdf">pdf</a>,
+                  <a href="bib/2016_icmc_eccs.bib">BibTeX</a>, 
+                  <a href="http://rfs1k.ucsd.edu/">dataset</a>, 
+                  <a href="https://github.com/chrisdonahue/ject">code</a>,
+                  <a href="http://chrisdonahue.github.io/ject/">demo</a>]
+              </span>
+            </li>
+            <li>
+              <span class="paper-authors">
+                Chris Donahue (advised by <a class="quiet" href="http://msp.ucsd.edu/">Miller Puckette</a>, <a class="quiet" href="http://www.soundhack.com/">Tom Erbe</a> and <a class="quiet" href="http://musicweb.ucsd.edu/~trsmyth/">Tamara Smyth</a>)
+              </span>
+              <span class="paper-title">
+              Extensions to Convolution for Generalized Cross-Synthesis
+              </span>
+              <span class="paper-venue">
+                <i>Master's thesis</i>, 2016.
+              </span>
+              <span class="paper-hyperlinks">
+            [<a href="https://s3-us-west-2.amazonaws.com/web-portfolio-static/pdf/2016_ucsd_eccs.pdf">pdf</a>,
+                  <a href="bib/2016_ucsd_eccs.bib">BibTeX</a>, 
+                  <a href="http://rfs1k.ucsd.edu/">dataset</a>, 
+                  <a href="https://github.com/chrisdonahue/ject">code</a>,
+                  <a href="http://chrisdonahue.github.io/ject/">demo</a>]
+              </span>
+            </li>
+            <li>
+              <span class="paper-authors">
+                Chris Donahue (advised by <a class="quiet" href="https://www.cs.utexas.edu/~pstone/">Peter Stone</a> and <a class="quiet" href="http://russellpinkston.com/">Russell Pinkston</a>)
+              </span> -->
+  	    <span class="paper-title">
+                Analyzing the “Big Three”: Mining Tennis Strategies from Broadcast Videos
+  	    </span>
+  	    <span class="paper-venue">
+                <i>Under Review</i>, 2018.
+  	    </span>
+              <span class="paper-hyperlinks">
+                <!-- [<a href="http://apps.cs.utexas.edu/tech_reports/reports/tr/TR-2156.pdf">pdf</a>, <a href="bib/2013_ut_evosynth.bib">BibTeX</a>, <a href="https://s3-us-west-2.amazonaws.com/web-portfolio-static/pages/evosynth/thesis.html">results</a>, <a href="https://s3-us-west-2.amazonaws.com/web-portfolio-static/bin/evosynth_v0.2a.zip">windows vst</a>] -->
+              </span>
+            </li>
+          </ul>
+        </section>
+        <section id="work">
+          <h2>Work Experience</h2>
+          <ul>
+          <!-- <li><i>(Summer 2018)</i> Internship at <a class="quiet" href="https://magenta.tensorflow.org">Google Magenta</a> (Music generation w/ <a href="http://www.iansimon.org">Ian Simon</a> and <a href="http://benanne.github.io/about/">Sander Dieleman</a>)</li>
+          <li><i>(Summer 2017)</i> Internship at <a class="quiet" href="https://www.google.com/">Google</a> (Speech recognition w/ <a href="https://research.google.com/pubs/BoLi.html">Bo Li</a> and <a href="https://research.google.com/pubs/RohitPrabhavalkar.html">Rohit Prabhavalkar</a>)</li>
+  	  <li><i>(Summer 2016)</i> Internship at <a class="quiet" href="https://www.google.com/">Google Search</a></li>
+  	  <li><i>(Summer 2015)</i> Internship at <a class="quiet" href="https://play.google.com/music">Google Play Music</a> (MIR w/ <a href="http://www-etud.iro.umontreal.ca/~boulanni/">Nicolas Boulanger-Lewandowski</a>)</li>
+  	  <li><i>(2011-2014)</i> Mentor for <a class="quiet" href="https://cns.utexas.edu/fri">UT Freshman Research Initiative</a> w/ <a href="http://joellehman.com/">Joel Lehman</a> and <a href="https://www.cs.utexas.edu/~risto/">Risto Miikkulainen</a></li>
+  	  <li><i>(Summer 2014)</i> Internship at <a class="quiet" href="https://en.wikipedia.org/wiki/Famigo">Famigo</a></li>
+  	  <li><i>(Summer 2013)</i> Internship at <a class="quiet" href="https://www.scrypt.com/docbookmd/">Docbook MD</a></li> -->
+  	  <li><i>(2017-2018)</i> Research Assistant at <a class="quiet" href="http://cvit.iiit.ac.in" target="_blank">CVIT, IIIT-Hyderabad</a></li>
+  	  <li><i>(2015-2017)</i> Decision Scientist at <a class="quiet" href="https://www.mu-sigma.com/" target="_blank">Mu Sigma Inc. </a></li>
+          </ul>
+        </section>
+        <!-- <section id="media">
+          <h2>Media Coverage</h2>
+          <ul>
+          <li><a href="https://www.theverge.com/2018/10/16/17982596/google-magenta-ai-piano-genie-improvisation-neural-networks"><i>The Verge</i></a> Google’s AI-powered Piano Genie lets anyone improvise perfectly by bashing buttons</li>
+          <li><a href="https://www.engadget.com/2018/10/16/google-ai-piano-genie-improvise-classical-music/"><i>Engadget</i></a> Google’s Piano Genie lets anyone improvise classical music</li>
+          <hr>
+          <li><a href="https://www.technologyreview.com/s/604000/machine-learning-algorithm-watches-dance-dance-revolution-then-creates-dances-of-its-own/"><i>MIT Technology Review</i></a> Machine-Learning Algorithm Watches Dance Dance Revolution, Then Creates Dances of Its Own</li>
+          <li><a href="https://www.theverge.com/2017/3/24/15047328/dance-dance-revolution-ai-neural-network-choreography"><i>The Verge</i></a> Scientists have taught a neural network to choreograph Dance Dance Revolution levels</li>
+          <li><a href="https://www.theregister.co.uk/2017/03/24/ai_enters_dance_dance_revolution/"><i>The Register</i></a> Yet another job menaced by AI! Uh, wait, it says here... Dance Dance Revolution designers</li>
+          <li><a href="https://theoutline.com/post/1280/this-neural-network-has-learned-how-to-choreograph-for-ddr"><i>The Outline</i></a> This neural network has learned how to choreograph for DDR</li>
+          <li><a href="https://noisey.vice.com/en_us/article/jp3bw7/this-machine-learned-to-choreograph-by-watching-dance-dance-revolution"><i>Vice</i></a> This Machine Learned to Choreograph by Watching Dance Dance Revolution</li>
+          </ul>
+        </section> -->
+        <section id="other">
+          <!-- TODO: ulamidi, PD externals, stringent, liquid_one, STM FM -->
+          <h2>Other</h2>
+          <ul>
+          <li><i>(2018)</i> Our work at CVIT was covered by The Hindu (<a href="https://www.thehindu.com/news/cities/Hyderabad/iiit-h-students-set-to-make-sports-video-analysis-affordable/article24116310.ece" target="_blank">link</a>)</li>
+	  <!-- <li><i>(2015)</i> Prototype for MOOC on computer music fundamentals using Web Audio API (<a href="http://chrisdonahue.github.io/js_audio_examples/">link</a>)</li>
+          <li><i>(2015)</i> Mobile-friendly, networked musical controller (<a href="https://chrisdonahue.github.io/spz15/">demo</a>)</li>
+	  <li><i>(2014)</i> Multichannel convolution reverb plugin (<a href="https://s3-us-west-2.amazonaws.com/web-portfolio-static/pages/melder/melder.png">screenshot</a>, <a href="https://s3-us-west-2.amazonaws.com/web-portfolio-static/pages/melder/melder.zip">code</a>, <a href="https://s3-us-west-2.amazonaws.com/web-portfolio-static/pages/melder/melder.dll">windows vst</a>)</li>
+	  <li><i>(2013)</i> OpenGL 3D spectrogram (<a href="https://s3-us-west-2.amazonaws.com/web-portfolio-static/pages/3dspectro/index.html">page</a>, <a href="https://github.com/chrisdonahue/opengl_spectrogram">code</a>)</li>
+          <li><i>(2012-2014)</i> Played keyboard for <a href="https://foodgroup.bandcamp.com/">Food Group</a></li> -->
+          </ul>
+        </section>
+	<br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+        <p><i>Last updated 2018/10/18</i></p>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/scramble.js"></script>
+    <!-- <script type="text/javascript" src="js/nustring.js"></script> -->
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
